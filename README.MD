@@ -1,6 +1,6 @@
 Collection of edited notebooks from Underactuated Robotics: https://github.com/RussTedrake/underactuated
 
-Add this code snippet to install and run drake in a .ipynb notebook with Google Colabs:
+Add this code snippet to any .ipynb notebook in order to run drake within Google Colabs:
 
 ```
 import importlib
@@ -20,4 +20,4 @@ if 'google.colab' in sys.modules:
 # Start a single meshcat server instance to use for the remainder of this notebook.
 from meshcat.servers.zmqserver import start_zmq_server_as_subprocess
 proc, zmq_url, web_url = start_zmq_server_as_subprocess(server_args=server_args)
-´´´
+```
