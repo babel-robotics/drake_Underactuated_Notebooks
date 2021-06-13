@@ -1,1 +1,5 @@
 Collection of edited notebooks from Underactuated Robotics: https://github.com/RussTedrake/underactuated
+
+Add this code snippet to install and run drake in a .ipynb notebook with Google Colabs:
+
+
