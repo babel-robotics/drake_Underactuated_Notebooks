@@ -30,10 +30,15 @@ Pull the docker image from https://hub.docker.com/r/russtedrake/underactuated wi
 
 ```
 docker pull russtedrake/underactuated
-```
-
+``` 
+  
 Run a docker container with the pulled image via:
 ```
 docker run -i -t russtedrake/underactuated /bin/bash
+``` 
+  
+Once your are done using the container, exit by typing:
 ```
-
+exit
+``` 
+  
